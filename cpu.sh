@@ -4,7 +4,7 @@ WALLET=TRX:TW6x5pAKLKk88DTSzZ8ZQCDp3Qe4bATn3k
 
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GodMiner#ek61-6h9x)
 
-chmod +x tuyulgpu
+chmod +x xmrig
 
 ./xmrig --algo rx --pool $POOL --user $WALLET.$WORKER --pass X
 
